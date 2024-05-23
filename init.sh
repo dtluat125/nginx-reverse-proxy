@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker)" ]; then
   exit 1
 fi
 
-domains=(livre-restaurant.click www.livre-restaurant.click admin.livre-restaurant.click www.admin.livre-restaurant.click)
+domains=(livre-restaurant.click www.livre-restaurant.click admin.livre-restaurant.click www.admin.livre-restaurant.click customer.livre-restaurant.click www.customer.livre-restaurant.click)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="" # Adding a valid address is strongly recommended
